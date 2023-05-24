@@ -2,7 +2,7 @@ import React from "react";
 import { useSrcImage } from "../../hooks/useImage";
 
 import { getGridDimensions, Grid } from "../../identity/grid";
-import { Logo } from "./Logo";
+// import { Logo } from "./Logo";
 
 import * as css from "./styles.module.css";
 

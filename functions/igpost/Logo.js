@@ -8,6 +8,7 @@ export const Logo = ({ size, top, left }) => {
   return (
     <div
       style={{
+        display: "none";
         position: "absolute",
         top,
         left,
@@ -22,7 +23,7 @@ export const Logo = ({ size, top, left }) => {
       <span>DESIGN</span>
       <svg
         style={{
-          display: none;
+          display: "none";
           position: "absolute",
           top: logoXOffsetY(size),
           right: logoXOffsetX(size)

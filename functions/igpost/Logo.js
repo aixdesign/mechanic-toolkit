@@ -22,6 +22,7 @@ export const Logo = ({ size, top, left }) => {
       <span>DESIGN</span>
       <svg
         style={{
+          display: none;
           position: "absolute",
           top: logoXOffsetY(size),
           right: logoXOffsetX(size)
